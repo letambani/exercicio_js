@@ -1,52 +1,56 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
-    margin: 20px;
+    background-image: url('img/971.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    display: flex;
     justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.content {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
 }
 
 h1 {
     color: #333;
-    justify-content: center;
 }
 
 button {
     padding: 10px 20px;
     font-size: 16px;
     cursor: pointer;
-    background-color: #007BFF;
+    background-color: #800080; 
     color: white;
     border: none;
     border-radius: 5px;
-    justify-content: center;
-    align-items: center;
 }
 
 button:hover {
-    background-color: #0056b3;
-    justify-content: center;
-    align-items: center;
+    background-color: #660066; 
 }
 
 #mensagem {
-    color: #007BFF;
+    color: #800080;
     font-weight: bold;
-    justify-content: center;
 }
 
 #textoAlterado {
     color: #555;
     font-style: italic;
-    justify-content: center;
 }
 
 a {
-    color: #007BFF;
+    color: #800080;
     text-decoration: none;
-    justify-content: center;
 }
 
 a:hover {
     text-decoration: underline;
-    justify-content: center;
 }
